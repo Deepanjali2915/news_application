@@ -1,0 +1,35 @@
+.container-fluid{
+    text-align: center;
+    width: 1440px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 32px;
+    color:#3C3030;
+    font-family: "Iowan Old Style";
+    font-size: 84px;
+    font-weight: 400;
+}
+
+.image-header{
+    border: 3px solid black;
+}
+
+.hr{
+    margin-top: 32px;
+    height: 7px;
+    border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .header {
+        margin-top: 29px;
+        font-size: 35.957px;    
+    }
+    .image-header{
+        width: 25px;
+    }
+}
+
