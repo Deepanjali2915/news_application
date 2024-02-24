@@ -1,4 +1,6 @@
-.container-fluid{
+.container-fluid {
+    /* padding-left: 0px;
+    padding-right: 0px; */
     text-align: center;
     width: 1440px;
 }
@@ -6,30 +8,84 @@
 .header {
     text-align: center;
     margin-top: 32px;
-    color:#3C3030;
+    color: #3C3030;
     font-family: "Iowan Old Style";
     font-size: 84px;
     font-weight: 400;
 }
 
-.image-header{
-    border: 3px solid black;
+.image-header {
+    /* border: 3px solid black; */
+    margin-bottom:15px ;
 }
 
-.hr{
+.hr {
     margin-top: 32px;
+    width: 100%;
     height: 7px;
     border: 1px solid black;
 }
 
-
-@media only screen and (max-width: 550px) {
-    .header {
-        margin-top: 29px;
-        font-size: 35.957px;    
-    }
-    .image-header{
-        width: 25px;
-    }
+.input-group {
+    justify-content: center;
+    margin-top: 51px;
 }
 
+.form-outline {
+    height: 60px;
+    border: 2px solid gray;
+    Display: flex;
+    flex-direction: row;
+    /* padding-left: 10px; */
+}
+
+.search {
+    height: 55px;
+    border: none;
+    width: 267px;
+    color: #3C3030;
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-weight: 400;
+    /* padding-left: 30px; */
+}
+
+.form-outline img {
+    width: 32px;
+    margin-top: 15px;
+    height: 32px;
+}
+
+.form-label {
+    background-color: red;
+    border-radius: 1px;
+    width: 62px;
+    height: 60px;
+    border: none;
+    color: #FDFDFA;
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 550px) {
+    .header {
+        margin-top: 29px;
+        font-size: 35.957px;
+    }
+
+    .image-header {
+        width: 25px;
+    }
+
+    .image-header {
+        margin-bottom: 8px ;
+    }
+    
+}
+
+@media (max-width: 15px) {
+    .container-fluid {
+        padding: 0px;
+    }
+}
