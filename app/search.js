@@ -1,11 +1,12 @@
 const Search = () => {
     return (
-        <div className="input-group">
+        <div className="search-group">
             <div className="form-outline">
-                <div><img src="Frame 15.png"/></div>
+                <img src="Frame 15.png"/>
                 <input type="search" className="search" placeholder="Search" />    
+                
             </div>
-            <button className="form-label" >GO</button>
+            <button className="go" >GO</button>
         </div>
     );
 };

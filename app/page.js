@@ -1,13 +1,17 @@
 "use client";
 import Header from "./header.js";
 import Search from "./search.js";
-import 'bootstrap/dist/css/bootstrap.css'
+import News from "./news.js";
 
+import 'bootstrap/dist/css/bootstrap.css'
+import './globals.css'
+import './media_query.css'
 export default function Home() {
   return (
-    <div class="container-fluid" >  
+    <>  
       <Header/>
       <Search/>
-      </div>
+      <News/>
+      </>
   )
 }

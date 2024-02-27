@@ -1,9 +1,8 @@
-.container-fluid {
-    /* padding-left: 0px;
-    padding-right: 0px; */
-    text-align: center;
-    width: 1440px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inknut Antiqua');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Inria Sans');
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
 
 .header {
     text-align: center;
@@ -14,52 +13,76 @@
     font-weight: 400;
 }
 
+/* @media (max-width: 556px) {
+    .header {
+        margin-top: 29px;
+        font-size: 35.957px;
+    }
+} */
+
 .image-header {
-    /* border: 3px solid black; */
-    margin-bottom:15px ;
+    margin-bottom: 15px;
 }
+
+/* @media (max-width: 556px) {
+    .image-header {
+        width: 25px;
+        margin-bottom: 8px;
+    }
+} */
 
 .hr {
     margin-top: 32px;
     width: 100%;
     height: 7px;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.input-group {
-    justify-content: center;
+.search-group {
     margin-top: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 89px;
 }
+
+/* @media (max-width: 556px) {
+    .search-group {
+        margin-bottom: 60px;
+    }
+} */
 
 .form-outline {
     height: 60px;
+    width: 230px;
     border: 2px solid gray;
-    Display: flex;
-    flex-direction: row;
-    /* padding-left: 10px; */
 }
 
 .search {
-    height: 55px;
+    height: 56px;
+    width: 194px;
     border: none;
-    width: 267px;
+    padding-top: 2px;
     color: #3C3030;
     font-family: "Iowan Old Style";
     font-size: 20px;
     font-weight: 400;
-    /* padding-left: 30px; */
 }
 
-.form-outline img {
+.search:focus {
+    outline: none;
+}
+
+.search-group img {
     width: 32px;
-    margin-top: 15px;
     height: 32px;
 }
 
-.form-label {
+.go {
     background-color: red;
     border-radius: 1px;
-    width: 62px;
+    width: 61px;
     height: 60px;
     border: none;
     color: #FDFDFA;
@@ -68,24 +91,91 @@
     font-weight: 400;
 }
 
-@media (max-width: 550px) {
-    .header {
-        margin-top: 29px;
-        font-size: 35.957px;
-    }
+.heading {
+    color: #D02424;
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 18px;
+}
 
-    .image-header {
-        width: 25px;
-    }
+/* @media (min-width: 556px) {
+    .container {
+        width:900px;
+        /* border: 1px solid black; */
+    /* }
+/* } */ 
 
-    .image-header {
-        margin-bottom: 8px ;
-    }
+.container{
+    margin-bottom: 89px;
+}
+
+
+.row_container {
+    margin-bottom: 31px;
     
 }
 
-@media (max-width: 15px) {
-    .container-fluid {
-        padding: 0px;
+/* @media (max-width: 556px) {
+    .row_container {
+        margin-bottom: 0px;
     }
+} */
+
+.box {
+    height: 408px;
+    /* border: 1px solid black; */
+    /* padding: 0px; */
 }
+
+/* @media (max-width: 556px) {
+    .box {
+        margin-bottom: 48px;
+
+    }
+} */
+
+.plan-title{
+    width: 100%;
+  }
+  
+  .plan-price{
+    color:#3C3030;
+    font-family: "Inknut Antiqua";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%; 
+    letter-spacing: -0.72px;
+    padding-top: 10px;
+  }
+  
+  .description{
+    color:#3C3030;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 10px;
+  }
+  
+  .fullartical{
+    color:#3C3030;
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%; 
+    padding-top: 12 px;
+  }
+  
+  .plan-button{
+    color:red;
+    border-radius: 5px;
+    height: 22px;
+    width: 35px;
+    background-color: white;
+    border:none;
+  }
+  
