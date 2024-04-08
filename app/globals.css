@@ -111,12 +111,12 @@
 
 .container{
     margin-bottom: 89px;
+    
 }
 
 
 .row_container {
-    margin-bottom: 31px;
-    
+    margin-bottom: 31px;    
 }
 
 /* @media (max-width: 556px) {
@@ -179,3 +179,36 @@
     border:none;
   }
   
+
+
+
+  .footer {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #3C3030;
+    font-family: "Iowan Old Style";
+    font-size: 15.095px;
+    font-weight: 400;
+    border-top: 1px solid black;
+}
+
+/* @media (max-width: 556px) {
+    .header {
+        margin-top: 29px;
+        font-size: 35.957px;
+    }
+} */
+
+.image-footer {
+    margin-top: -3px;
+    /* width: 8.302px;
+    height: 8.302px; */
+}
+
+/* @media (max-width: 556px) {
+    .image-header {
+        width: 25px;
+        margin-bottom: 8px;
+    }
+} */

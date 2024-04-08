@@ -1,55 +1,175 @@
-const Search = () => {
-    return (
-        <div className="input-group">
-            <div className="form-outline">
-                <div><img src="Frame 15.png"/></div>
-                <input type="search" className="search" placeholder="Search" />    
+            {/* <div class="row row_container " >
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+                </div>
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+
+                </div>
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+                </div>
+            </div> */}
+            {/* <div class="row row_container " >
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+                </div>
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+
+                </div>
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+                </div>
             </div>
-            <button className="form-label" >GO</button>
-        </div>
-    );
-};
-export default Search;
+            <div class="row row_container " >
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+                </div>
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+
+                </div>
+                <div class="box col-sm-4 ">
+                    <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+                    <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+                    <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+                    <div class="fullartical" >Read full artical
+                        <button class="plan-button"><img src="arrow.png" /></button></div>
+                </div>
+            </div> */}
 
 
-.input-group {
-    justify-content: center;
-    margin-top: 51px;
-}
 
-.form-outline {
-    height: 60px;
-    border: 2px solid gray;
-    display: flex;
-    flex-direction: row;
 
-}
 
-.search {
-    height: 55px;
-    border: none;
-    width: 267px;
-    color: #3C3030;
-    font-family: "Iowan Old Style";
-    font-size: 20px;
-    font-weight: 400;
-    /* padding-left: 30px; */
-}
 
-.form-outline img {
-    width: 32px;
-    margin-top: 15px;
-    height: 32px;
-}
 
-.form-label {
-    background-color: red;
-    border-radius: 1px;
-    width: 62px;
-    height: 60px;
-    border: none;
-    color: #FDFDFA;
-    font-family: "Iowan Old Style";
-    font-size: 20px;
-    font-weight: 400;
-}
+
+
+
+
+
+
+<>
+             <div className="container">
+        <div className="heading" >top news from india</div>
+
+            <div class="box col-sm-4 row_container ">
+                <div class="plan-title"><img class="plan-title" src={props.photo} /></div>
+                <div class="plan-price">{props.heading}</div>
+                <div class="description">{props.artical}</div>
+                <div class="fullartical" >Read full artical
+                    <button class="plan-button"><img src="arrow.png" /></button></div>
+            </div>
+            </div>
+        </>            
+
+
+
+
+
+
+
+// <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+//                 </div>
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+
+//                 </div>
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+//                 </div>
+//             </div>
+//             <div class="row row_container " >
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+//                 </div>
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+
+//                 </div>
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+//                 </div>
+//             </div>
+//             <div class="row row_container " >
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+//                 </div>
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+
+//                 </div>
+//                 <div class="box col-sm-4 ">
+//                     <div class="plan-title"><img class="plan-title" src="photo2.png" /></div>
+//                     <div class="plan-price">Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss</div>
+//                     <div class="description">The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are ..... </div>
+//                     <div class="fullartical" >Read full artical
+//                         <button class="plan-button"><img src="arrow.png" /></button></div>
+//                 </div>

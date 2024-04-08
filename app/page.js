@@ -1,17 +1,22 @@
 "use client";
+import 'bootstrap/dist/css/bootstrap.css';
+import './globals.css';
+import './media_query.css';
 import Header from "./header.js";
 import Search from "./search.js";
-import News from "./news.js";
+import Articles from "./articles.js";
+import Footer from "./footer.js";
 
-import 'bootstrap/dist/css/bootstrap.css'
-import './globals.css'
-import './media_query.css'
-export default function Home() {
+
+const Home = () => {
   return (
-    <>  
-      <Header/>
-      <Search/>
-      <News/>
-      </>
+    <>
+      <Header />
+      <Search />
+      <Articles />
+      <Footer />
+    </>
   )
 }
+
+export default Home;
