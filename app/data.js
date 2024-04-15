@@ -1,4 +1,4 @@
-export const news_Data = [
+export const news_data = [
     {
     photo:"photo1.jpg",
     heading:"Echoes of Defeat: A Personal Reflection on India’s 2023 World Cup Loss",
